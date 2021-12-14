@@ -26,9 +26,17 @@
             background-color: lightgrey;
         }
 
-        thead {
-            background-color: gray;
+        thead, tfoot {
+            background-color: rgb(47, 47, 47);
             color: white;
+        }
+         
+        tbody > tr:nth-child(odd) { /* ou 2n-1*/
+            background-color: rgb(174, 235, 172);
+        }
+        
+        tbody > tr:nth-child(even) { /* ou 2n*/
+            background-color: rgb(135, 208, 250);
         }
         td.num {
             text-align: right;
