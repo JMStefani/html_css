@@ -35,10 +35,10 @@
              overflow-x: auto;
          }
     </style>
-    <title>Tabelas - Desafio 14</title>
+    <title>Tabelas - Desafio 14- Alternativa 2</title>
 </head>
 <body>
-    <h1>Tabelas - desafio 14</h1>
+    <h1>Tabelas - desafio 14 - Alternativa 2</h1>
     <div id="container">
         <table>
             <caption>Desafio 14</caption>
@@ -53,11 +53,8 @@
                         <th scope="col">Nota 2</th>
                     </tr>
                 </tr>
-            </thead>
-        
-            <tbody>
                 <tr>
-                    <td rowspan="4">Exatas</td>
+                    <th scope="row" rowspan="4">Exatas</th>
                     <td>Matemática</td>
                     <td>0,0</td>
                     <td>0,0</td>
@@ -73,7 +70,7 @@
                     <td>Quimica</td>
                     <td>0,0</td>
                     <td>0,0</td>
-                    <td>0,0</td>
+                    <td>0,0</td> 
                 </tr>
                 <tr>
                     <td>Biologia</td>
@@ -81,12 +78,13 @@
                     <td>0,0</td>
                     <td>0,0</td>
                 </tr>
-                <tr style="background-color: rgb(119, 119, 119); color: white;">
-                    <td colspan="4" style="text-align: left;">Média de Exatas</td>
-                    <td>0,0</td>
+                <tr>
+                    <th scope="row" colspan="4">Média de Exatas</th>
+                        <td style="color: white; background-color: rgb(119, 119, 119);">0,0</td>
+                    </th>
                 </tr>
                 <tr>
-                    <td rowspan="2">Humanas</td>
+                    <th scope="row" rowspan="2">Humanas</td>
                     <td>História</td>
                     <td>0,0</td>
                     <td>0,0</td>
@@ -98,11 +96,11 @@
                     <td>0,0</td>
                     <td>0,0</td>
                 </tr>
-                <tr style="background-color: rgb(119, 119, 119); color: white;">
-                    <td colspan="4" style="text-align: left;">Média de Humanas</td>
-                    <td>0,0</td>
+                <tr>
+                    <th scope="row" colspan="4">Média de Humanas</th>
+                    <td style="color: white; background-color: rgb(119, 119, 119);">0,0</td>
                 </tr>
-            </tbody>
+            </thead>
         </table>
     </div>
 </body>
