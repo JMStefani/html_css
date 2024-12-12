@@ -1,0 +1,38 @@
+div.conteiner {
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+       
+}
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-basis: 250px;
+}
+div#gra {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+div#grb {
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+div#grc {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+div#sha {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+div#shb {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+div#shc {
+    flex-grow: 0;
+    flex-shrink: 2;
+}
